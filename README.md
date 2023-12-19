@@ -63,17 +63,19 @@ Objective is to optimize the operation of a battery system using reinforcement l
 
 
 ## References
-1.[Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto
-](http://incompleteideas.net/book/RLbook2020.pdf)
+1.[Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto](http://incompleteideas.net/book/RLbook2020.pdf)
+
 2.[Deep Reinforcement Learning with Python (DQN and variants) - Article](https://towardsdatascience.com/deep-reinforcement-learning-build-a-deep-q-network-dqn-to-play-cartpole-with-tensorflow-2-and-gym-8e105744b998)
+
 3.[Reinforcement Learning for Optimal Control of Battery Charging](https://ieeexplore.ieee.org/document/10202845/footnotes#footnotes)
+
 4.[Creating an Environment for RL](https://towardsdatascience.com/create-your-own-reinforcement-learning-environment-beb12f4151ef)
+
 5.[RL — Reinforcement Learning Algorithms Comparison](https://jonathan-hui.medium.com/rl-reinforcement-learning-algorithms-comparison-76df90f180cf)
 
 
 ## Project Mentors
 *Pooja M
-*
 ## Project Members
 * Likith Raj A
 * Rahul Gupta
