@@ -36,19 +36,22 @@
 Objective is to optimize the operation of a battery system using reinforcement learning (RL) techniques to enhance performance, efficiency, and longevity.
 
 ## Objectives
-*Develop a Generalized BMS Environment: Ensure compatibility with various RL algorithms.
-*Implement & Evaluate RL Algorithms: Deploy DQN, A2C and PPO on the developed environment.
-*Performance Comparison: Investigate each algorithm’s capability in balancing SOC and temperature.
-*Optimization: Fine-tune the most promising algorithm(s) for enhanced performance.
+* Develop a Generalized BMS Environment: Ensure compatibility with various RL algorithms.
+* Implement & Evaluate RL Algorithms: Deploy DQN, A2C and PPO on the developed environment.
+* Performance Comparison: Investigate each algorithm’s capability in balancing SOC and temperature.
+* Optimization: Fine-tune the most promising algorithm(s) for enhanced performance.
 
 ## Technologies used
 [![Tech_Used](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg)
 
 ## Literature Survey
-*Prevailing PPO Application: Proximal Policy Optimization (PPO) is a dominant choice for SOC and temperature management in Battery Management Systems (BMS) using Reinforcement Learning (RL).
-*Alternate RL Algorithms: Other RL algorithms like DQN and A2C have demonstrated potential in diverse control scenarios, suggesting potential applicability in BMS.
-*Research Gap in EV Context: Existing literature lacks dedicated, comparative studies of these algorithms within the context of BMS specifically tailored for Electric Vehicles (EVs), a domain demanding high reliability, safety, and energy efficiency.
-*Objective of OptiCharge: This project aims to bridge this gap, offering a comprehensive evaluation of these RL algorithms for BMS in EV applications, providing crucial insights for the EV industry's future R&D initiatives.
+* Prevailing PPO Application: Proximal Policy Optimization (PPO) is a dominant choice for SOC and temperature management in Battery Management Systems (BMS) using Reinforcement Learning (RL).
+
+* Alternate RL Algorithms: Other RL algorithms like DQN and A2C have demonstrated potential in diverse control scenarios, suggesting potential applicability in BMS.
+
+* Research Gap in EV Context: Existing literature lacks dedicated, comparative studies of these algorithms within the context of BMS specifically tailored for Electric Vehicles (EVs), a domain demanding high reliability, safety, and energy efficiency.
+
+* Objective of OptiCharge: This project aims to bridge this gap, offering a comprehensive evaluation of these RL algorithms for BMS in EV applications, providing crucial insights for the EV industry's future R&D initiatives.
 
 ## Getting Started
 
@@ -69,7 +72,8 @@ Objective is to optimize the operation of a battery system using reinforcement l
 
 
 ## Project Mentors
-*Pooja M
+* Pooja M
+* 
 ## Project Members
 * Likith Raj A
 * Rahul Gupta
