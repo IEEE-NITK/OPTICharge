@@ -22,6 +22,8 @@
         </li>
         <li><a href="#project-members">Project Members</a></li>
         </li> 
+        <li><a href="#license">License</a></li>
+        </li> 
     </ol>
 </details>
 
@@ -74,7 +76,9 @@ Objective is to optimize the operation of a battery system using reinforcement l
 * Rahul Gupta
 * Shankar Gaud
 * Suksha Kiran
-
+  
+## License
+This repository is licensed under the [MIT LICENSE](https://github.com/IEEE-NITK/OPTICharge/blob/main/LICENSE)
 
 
 
