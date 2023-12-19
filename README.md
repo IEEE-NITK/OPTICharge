@@ -10,27 +10,21 @@
                 <li><a href="#technologies-used">Technologies Used</a></li>
             </ul>
         </li>
-        <li>
-            <a href="#literature-survey">Literature Survey</a>
+        <li><a href="#literature-survey">Literature Survey</a>
            
         </li>
-        <li>
-            <a href="#getting-started">Getting Started</a>
+        <li><a href="#getting-started">Getting Started</a>
             
         </li>
-        <li>
-            <a href="#user-guide">User Guide</a>
+        <li><a href="#user-guide">User Guide</a>
                
         </li>
         
-        <li>
-            <a href="#references">References</a> 
+        <li><a href="#references">References</a> 
         </li>
-        <li>
-            <a href="#project-mentors">Project Mentors</a></li>
+        <li><a href="#project-mentors">Project Mentors</a></li>
         </li>
-        <li>
-            <a href="#project-members">Project Members</a></li>
+        <li><a href="#project-members">Project Members</a></li>
         </li> 
            
     </ol>
