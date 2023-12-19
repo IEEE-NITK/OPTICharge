@@ -70,7 +70,7 @@ Objective is to optimize the operation of a battery system using reinforcement l
 
 ## Project Mentors
 * Pooja M
-* 
+* Priyanshu Bhandari
 ## Project Members
 * Likith Raj A
 * Rahul Gupta
