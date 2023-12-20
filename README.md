@@ -74,7 +74,7 @@ Objective is to optimize the operation of a battery system using reinforcement l
 ## Project Members
 * Likith Raj A
 * Rahul Gupta
-* Shankar Gaud
+* Shankaragouda
 * Suksha Kiran
   
 ## License
