@@ -42,6 +42,34 @@ Objective is to optimize the operation of a battery system using reinforcement l
 [![Tech_Used](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg)
 
 ## Literature Survey
+
+### Reinforcement Learning:
+
+Reinforcement learning is a branch of machine learning that deals with decision-making processes where an agent learns to make sequential decisions by interacting with its environment. This section provides an overview of RL fundamentals, emphasizing key concepts such as state, action, reward, and the learning process through exploration and exploitation.
+
+* Agent: The entity that makes decisions and takes actions within an environment.
+    Role: The agent learns to perform tasks or achieve goals by interacting with the environment
+* Environment: The external system or context in which the agent operates.
+    Role: The environment provides feedback to the agent based on its actions and influences the state transitions
+* State: A representation of the current situation or configuration of the environment.
+    Role: States are crucial for decision-making, as they determine the information available to the agent at a given moment.
+* Action:  The set of possible moves or decisions that an agent can take in a particular state.
+    Role: Actions influence the state transitions and, consequently, the rewards received by the agent.
+* Policy: A strategy or mapping from states to actions, representing the agent's decision-making strategy.
+    Role: The policy guides the agent in choosing actions in different states to maximize expected cumulative rewards.
+* Reward:  A numerical signal provided by the environment as feedback for the agent's actions.
+    Role: Rewards serve as a reinforcement signal, guiding the agent to learn behaviors that lead to favorable outcomes.
+* Value function: A function that estimates the expected cumulative future rewards associated with being in a particular state or taking a specific action.
+    Role: Value functions help the agent evaluate the desirability of different states or actions, aiding in decision-making.
+* Q-Value function: The expected cumulative future rewards of taking a particular action in a given state.
+    Role: Q-values are crucial for determining the best action to take in a specific state and are often used in algorithms like Q-learning.
+
+### Battery System Optimization:
+
+Understanding the challenges associated with battery systems is essential for developing effective optimization strategies. This section examines common challenges, including battery degradation, charge/discharge control, and the impact of varying operating conditions on overall system performance.
+An overview of current battery management systems is provided, emphasizing the limitations and areas where improvements are needed. This section sets the stage for discussing how RL can be integrated into existing BMS to overcome these limitations and optimize battery operations.
+
+
 * Prevailing PPO Application: Proximal Policy Optimization (PPO) is a dominant choice for SOC and temperature management in Battery Management Systems (BMS) using Reinforcement Learning (RL).
 
 * Alternate RL Algorithms: Other RL algorithms like DQN and A2C have demonstrated potential in diverse control scenarios, suggesting potential applicability in BMS.
