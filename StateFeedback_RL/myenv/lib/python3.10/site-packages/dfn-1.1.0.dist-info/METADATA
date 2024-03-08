@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dfn
+Version: 1.1.0
+Summary: download_from_nas
+Author: yifei.gao
+Author-email: yifei.gao@sophgo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: tqdm
+
+UNKNOWN
+
