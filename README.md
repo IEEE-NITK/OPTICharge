@@ -70,7 +70,7 @@ Understanding the challenges associated with battery systems is essential for de
 An overview of current battery management systems is provided, emphasizing the limitations and areas where improvements are needed. This section sets the stage for discussing how RL can be integrated into existing BMS to overcome these limitations and optimize battery operations.
 
 
-* Prevailing PPO Application: Proximal Policy Optimization (PPO) is a dominant choice for SOC and temperature management in Battery Management Systems (BMS) using Reinforcement Learning (RL).
+* Prevailing DDPG Application: Deep Deterministic Policy Gradient (DDPG) is a dominant choice for SOC and temperature management in Battery Management Systems (BMS) using Reinforcement Learning (RL).
 
 * Alternate RL Algorithms: Other RL algorithms like DQN and A2C have demonstrated potential in diverse control scenarios, suggesting potential applicability in BMS.
 
