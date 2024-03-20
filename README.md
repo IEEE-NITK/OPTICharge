@@ -30,7 +30,10 @@
 <hr>
 
 ## Introduction
-Objective is to optimize the operation of a battery system using reinforcement learning (RL) techniques to enhance performance, efficiency, and longevity.
+The primary objective of OPTICharge is to create a generalized BMS environment that ensures compatibility with a range of RL algorithms. By establishing a flexible framework, the project aims to facilitate seamless integration and evaluation of various RL techniques for BMS optimization. This adaptability is crucial given the diverse nature of RL algorithms and their applicability across different scenarios.
+Subsequently, the project focuses on implementing and evaluating RL algorithms within the developed BMS environment. Specifically, the Deep Q-Network (DQN), Advantage Actor-Critic (A2C), and Deep Deterministic Policy Gradient (DDPG) algorithms will be deployed and rigorously assessed. These algorithms offer distinct approaches to reinforcement learning, providing insights into their efficacy in addressing the complex challenges of balancing State of Charge (SOC) and temperature within battery cells.
+A critical aspect of the OPTICharge project involves conducting a comprehensive performance comparison among the deployed RL algorithms. Through rigorous experimentation and analysis, each algorithm's capability in optimizing SOC and temperature will be thoroughly investigated. This comparative evaluation will yield valuable insights into the strengths and weaknesses of each algorithm, guiding the selection of the most promising candidates for further optimization.
+In summary, the OPTICharge project embarks on a multidimensional exploration of BMS optimization through RL algorithms. By developing a generalized BMS environment, implementing and evaluating various RL techniques, conducting a comprehensive performance comparison, and optimizing the most promising algorithms, OPTICharge seeks to advance the state-of-the-art in electric vehicle battery management. Through these endeavors, the project endeavors to pave the way for more efficient, reliable, and sustainable electric vehicle technologies.
 
 ## Objectives
 * Develop a Generalized BMS Environment: Ensure compatibility with various RL algorithms.
@@ -77,6 +80,8 @@ An overview of current battery management systems is provided, emphasizing the l
 * Research Gap in EV Context: Existing literature lacks dedicated, comparative studies of these algorithms within the context of BMS specifically tailored for Electric Vehicles (EVs), a domain demanding high reliability, safety, and energy efficiency.
 
 * Objective of OptiCharge: This project aims to bridge this gap, offering a comprehensive evaluation of these RL algorithms for BMS in EV applications, providing crucial insights for the EV industry's future R&D initiatives.
+
+  ### 
 
 ## Getting Started
 
