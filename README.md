@@ -12,7 +12,7 @@
         </li>
         <li><a href="#literature-survey">Literature Survey</a>
         </li>
-        <li><a href="#getting-started">Getting Started</a>
+       
         </li>
          <li>
             <a href="#user-guide">User Guide</a>
@@ -94,11 +94,6 @@ An overview of current battery management systems is provided, emphasizing the l
 * Research Gap in EV Context: Existing literature lacks dedicated, comparative studies of these algorithms within the context of BMS specifically tailored for Electric Vehicles (EVs), a domain demanding high reliability, safety, and energy efficiency.
 
 * Objective of OptiCharge: This project aims to bridge this gap, offering a comprehensive evaluation of these RL algorithms for BMS in EV applications, providing crucial insights for the EV industry's future R&D initiatives.
-
-  ### 
-
-## Getting Started
-
 
 ## User Guide
 
