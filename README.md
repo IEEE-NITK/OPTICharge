@@ -12,16 +12,14 @@
         </li>
         <li><a href="#literature-survey">Literature Survey</a>
         </li>
-       
-        </li>
-         <li>
-            <a href="#user-guide">User Guide</a>
-            <ul>
-                <li><a href="# Training & Testing">Training & Testing</a></li>
-            </ul>
-            <ul>
-                <li><a href="# Evaluation & Visualization">Evaluation & Visualization</a></li>
-            </ul>           
+        <li>
+          <a href="##user-guide">User Guide</a>
+          <ul>
+              <li><a href="##training-&-testing">Training & Testing</a></li>
+          </ul>
+          <ul>
+              <li><a href="#evaluation-&-visualization">Evaluation & Visualization</a></li>
+          </ul>           
         </li>
         </li>
         <li><a href="#references">References</a> 
