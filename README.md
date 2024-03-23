@@ -14,7 +14,15 @@
         </li>
         <li><a href="#getting-started">Getting Started</a>
         </li>
-        <li><a href="#user-guide">User Guide</a>
+         <li>
+            <a href="#user-guide">User Guide</a>
+            <ul>
+                <li><a href="# Training & Testing">Training & Testing</a></li>
+            </ul>
+            <ul>
+                <li><a href="# Evaluation & Visualization">Evaluation & Visualization</a></li>
+            </ul>           
+        </li>
         </li>
         <li><a href="#references">References</a> 
         </li>
@@ -30,10 +38,12 @@
 <hr>
 
 ## Introduction
-The primary objective of OPTICharge is to create a generalized BMS environment that ensures compatibility with a range of RL algorithms. By establishing a flexible framework, the project aims to facilitate seamless integration and evaluation of various RL techniques for BMS optimization. This adaptability is crucial given the diverse nature of RL algorithms and their applicability across different scenarios.
+* OPTICHARGE,this is the application of reinforcement learning (RL) for battery fast-charging in the advanced battery management system (BMS). Using deep deterministic policy gradient (DDPG) algorithm, the RL agent is able to achieve fast-charging control strategy compared to existing model-based control strategies. In this repo, the RL results are reproduced by using the publicly available Lithium cobalt battery (LiCoO2) battery chemistry. Specifically, we present the RL agent in terms of state-feedback and output-feedback learning policy, which can be found in the sub-folders
+
+* The primary objective of OPTICharge is to create a generalized BMS environment that ensures compatibility with a range of RL algorithms. By establishing a flexible framework, the project aims to facilitate seamless integration and evaluation of various RL techniques for BMS optimization. This adaptability is crucial given the diverse nature of RL algorithms and their applicability across different scenarios.
 Subsequently, the project focuses on implementing and evaluating RL algorithms within the developed BMS environment. Specifically, the Deep Q-Network (DQN), Advantage Actor-Critic (A2C), and Deep Deterministic Policy Gradient (DDPG) algorithms will be deployed and rigorously assessed. These algorithms offer distinct approaches to reinforcement learning, providing insights into their efficacy in addressing the complex challenges of balancing State of Charge (SOC) and temperature within battery cells.
-A critical aspect of the OPTICharge project involves conducting a comprehensive performance comparison among the deployed RL algorithms. Through rigorous experimentation and analysis, each algorithm's capability in optimizing SOC and temperature will be thoroughly investigated. This comparative evaluation will yield valuable insights into the strengths and weaknesses of each algorithm, guiding the selection of the most promising candidates for further optimization.
-In summary, the OPTICharge project embarks on a multidimensional exploration of BMS optimization through RL algorithms. By developing a generalized BMS environment, implementing and evaluating various RL techniques, conducting a comprehensive performance comparison, and optimizing the most promising algorithms, OPTICharge seeks to advance the state-of-the-art in electric vehicle battery management. Through these endeavors, the project endeavors to pave the way for more efficient, reliable, and sustainable electric vehicle technologies.
+* A critical aspect of the OPTICharge project involves conducting a comprehensive performance comparison among the deployed RL algorithms. Through rigorous experimentation and analysis, each algorithm's capability in optimizing SOC and temperature will be thoroughly investigated. This comparative evaluation will yield valuable insights into the strengths and weaknesses of each algorithm, guiding the selection of the most promising candidates for further optimization.
+* In summary, the OPTICharge project embarks on a multidimensional exploration of BMS optimization through RL algorithms. By developing a generalized BMS environment, implementing and evaluating various RL techniques, conducting a comprehensive performance comparison, and optimizing the most promising algorithms, OPTICharge seeks to advance the state-of-the-art in electric vehicle battery management. Through these endeavors, the project endeavors to pave the way for more efficient, reliable, and sustainable electric vehicle technologies.
 
 ## Objectives
 * Develop a Generalized BMS Environment: Ensure compatibility with various RL algorithms.
@@ -43,6 +53,10 @@ In summary, the OPTICharge project embarks on a multidimensional exploration of 
 
 ## Technologies used
 [![Tech_Used](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg)
+### Requirements
+* Python 3.7 (it might work with Python 2, but I didn't test it)
+* PyTorch 1.2.0
+* OpenAI baselines
 
 ## Literature Survey
 
@@ -88,6 +102,22 @@ An overview of current battery management systems is provided, emphasizing the l
 
 ## User Guide
 
+* In the "settings_file.py" for each folder, the training settings and constraints are defined. For RL training configuration, the hyper-paramters are defined in "model.py".
+
+* You can simply run the code and reproduce the results in the folder by following:
+
+* You can try with different parameter initialization using additional argument, i.e., --id 0, --id 1, ...
+
+## Training & Testing
+
+* python main_training_testing_output_fdbk.py --id 0
+* python main_training_testing_state_fdbk.py --id 0
+* After training the RL agent, one can evaluate the performance of RL controller by executing notebook:
+
+## Evaluation & Visualization
+* jupyter notebook
+* Launch the notebook file (.ipynb) in the sub-folder for deeper analysis.
+* Figures and Results are saved in "figures" in each subfolders of the repository. The figures in the manuscript are different from repository results because the battery model is adopted from company-owned battery parameters.
 
 ## References
 1.[Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto](http://incompleteideas.net/book/RLbook2020.pdf)
